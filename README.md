@@ -22,9 +22,9 @@
 
 [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
-[Live Server (Ritwick Dey)](vscode:extension/ritwickdey.liveserver) 
+[Live Server by Ritwick Dey](vscode:extension/ritwickdey.liveserver) 
 
-[Live Sass Compiler (Ritwick Dey)](vscode:extension/ritwickdey.live-sass) 
+[Live Sass Compiler by Ritwick Dey](vscode:extension/ritwickdey.live-sass) 
 
 [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) 
 
