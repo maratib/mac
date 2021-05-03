@@ -22,9 +22,9 @@
 
 [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
-[Live Server by Ritwick Dey](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) 
+[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) 
 
-[Live Sass Compiler by Ritwick Dey](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) 
+[Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) 
 
 [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) 
 
@@ -32,11 +32,11 @@
 
 [Advnace-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file) 
 
-[SCSS IntelliSense (mrmlnc)](vscode:extension/mrmlnc.vscode-scss) 
+[SCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss) 
 
-[IntelliSense for CSS](vscode:extension/zignd.html-css-class-completion) 
+[IntelliSense for CSS](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion) 
 
-[CSS Navigation](vscode:extension/pucelle.vscode-css-navigation) 
+[CSS Navigation](https://marketplace.visualstudio.com/items?itemName=pucelle.vscode-css-navigation) 
 
 [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) 
 
