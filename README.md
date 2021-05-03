@@ -28,6 +28,8 @@
 
 [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) 
 
+[Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag) 
+
 [.env support](https://marketplace.visualstudio.com/items?itemName=IronGeek.vscode-env) 
 
 [Advnace-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file) 
@@ -40,6 +42,12 @@
 
 [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) 
 
+
+### Vue
+
+[Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+
+[VueDX](https://marketplace.visualstudio.com/items?itemName=znck.vue-language-features) 
 
 
 
