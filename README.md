@@ -10,10 +10,25 @@
 1.	Change hostname in Sharing if required
 2.	Allow Guest user login (Sharing read/write permission for public folder)
 
+## Home, End Explorer Keys
+1.	In finder go `~/Library/`  
+2.	Paste the `KeyBindings` folder there.
+
+
 ## Install important software
 [Typora to view Markdown Files](https://typora.io/)
 
-[Open with VS Code](https://www.jimbobbennett.io/open-anything-in-vs-code-using-a-macos-quick-action/) 
+[Open with VS Code](https://www.jimbobbennett.io/open-anything-in-vs-code-using-a-macos-quick-action/)  
+
+## [Home][end] keys in terminal
+
+open terminal and goto Preferences -> Profile -> Keyboard tab
+
+Key : Home, Modifier : None, Action Send Text
+
+add the key \033[H for home and \033[F for End
+
+Esc Key : \033
   
 <br>
 
