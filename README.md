@@ -1,6 +1,6 @@
 # Mac - VS Code Setup
 
-## Mac General Setup
+# Mac Setup
 
 1.	Mouse Setup (Uncheck Scroll Direction: Natural)
 2.	Set mission Control to Mouse button 3
@@ -13,11 +13,23 @@
 ## Install important software
 [Typora to view Markdown Files](https://typora.io/)
 
-[Open with VS Code](https://www.jimbobbennett.io/open-anything-in-vs-code-using-a-macos-quick-action/)
+[Open with VS Code](https://www.jimbobbennett.io/open-anything-in-vs-code-using-a-macos-quick-action/) 
+  
+<br>
 
+# VS Code setup
+
+### Fire Code
+Install the Fira Code font attached here with
+#### VS Code settings
+```javascript
+"editor.fontFamily": "Fira Code",
+"editor.fontLigatures": true,
+```
 ## VS Code important extensions
 
-### General Extensions
+### General extensions
+
 [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) 
 
 [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
