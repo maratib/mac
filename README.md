@@ -3,8 +3,12 @@
 ## Mac General Setup
 
 1.	Mouse Setup (Uncheck Scroll Direction: Natural)
-2.	Change hostname in Sharing if required (Admin only)
-3.	Allow Guest yours login (Shraing read/write permission for public folder) (Admin Only)
+2.	Set mission Control to Mouse button 3
+3.	Change CTRL to CMD in Keyboard -> Modifier Keys...
+
+### Admin's only
+1.	Change hostname in Sharing if required
+2.	Allow Guest user login (Sharing read/write permission for public folder)
 
 
 
