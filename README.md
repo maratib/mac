@@ -47,6 +47,8 @@
 
 [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
 
+NOTE: disable [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) if already installed 
+
 [VueDX](https://marketplace.visualstudio.com/items?itemName=znck.vue-language-features) 
 
 
