@@ -70,6 +70,11 @@ Install the Fira Code font attached here with
 
 [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) 
 
+[Reload](https://marketplace.visualstudio.com/items?itemName=natqe.reload)
+
+[File Utils](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils)
+
+
 
 ### Vue
 
