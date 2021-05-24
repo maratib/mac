@@ -77,6 +77,9 @@ Install the Fira Code font attached here with
 
 [File Utils](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils)
 
+[File Size](https://marketplace.visualstudio.com/items?itemName=mkxml.vscode-filesize)
+
+
 
 
 ### Vue
