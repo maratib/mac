@@ -13,6 +13,9 @@
 ## Home, End Explorer Keys
 1.	In finder go `~/Library/`  
 2.	Paste the `KeyBindings` folder there.
+3.  Link Download/Public folder to some other location with (sudo rm -rf ~/Downloads) and (ln -s "/ExternalDrive/Downloads" ~/Downloads)  
+
+
 
 ## [Home][end] keys in terminal
 
