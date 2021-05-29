@@ -100,3 +100,9 @@ NOTE: disable [Vetur](https://marketplace.visualstudio.com/items?itemName=octref
 ### React Extensions
 
 ### PHP Extensions
+
+### PHP Extensions
+
+#### Install Jekyll
+
+[Install Instructions](https://jekyllrb.com/docs/installation/macos/)
