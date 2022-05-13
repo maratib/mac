@@ -10,7 +10,7 @@
 
 1. Change hostname in Sharing if required
 2. Allow Guest user login (Sharing read/write permission for public folder)
-3. `xcode-select --install`
+3. on command line : `xcode-select --install`
 
 ## Home, End Explorer Keys
 
