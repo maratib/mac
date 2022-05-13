@@ -10,6 +10,7 @@
 
 1. Change hostname in Sharing if required
 2. Allow Guest user login (Sharing read/write permission for public folder)
+3. `xcode-select --install`
 
 ## Home, End Explorer Keys
 
@@ -29,6 +30,10 @@ Esc Key : \033
 
 for CATALINA  
 add the key \033OH for home and \033OF for End
+
+## Install important software from apps-store
+1. copyClip  
+
 
 ## Install important software
 
@@ -96,6 +101,8 @@ NOTE: disable [Vetur](https://marketplace.visualstudio.com/items?itemName=octref
 ### TailwindCSS
 
 [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+
+[xPro](https://marketplace.visualstudio.com/items?itemName=maratib.xpro-snippets)
 
 ### React Extensions
 
