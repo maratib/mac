@@ -90,6 +90,9 @@ Install the Fira Code font attached here with
 
 [File Size](https://marketplace.visualstudio.com/items?itemName=mkxml.vscode-filesize)
 
+[DateTime](https://marketplace.visualstudio.com/items?itemName=znck.vue-language-features](https://marketplace.visualstudio.com/items?itemName=rid9.datetime)
+
+
 ### Vue
 
 [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
@@ -98,7 +101,6 @@ NOTE: disable [Vetur](https://marketplace.visualstudio.com/items?itemName=octref
 
 [VueDX](https://marketplace.visualstudio.com/items?itemName=znck.vue-language-features)
 
-[DateTime](https://marketplace.visualstudio.com/items?itemName=znck.vue-language-features](https://marketplace.visualstudio.com/items?itemName=rid9.datetime)
 
 ### TailwindCSS
 
