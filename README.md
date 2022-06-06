@@ -90,7 +90,7 @@ Install the Fira Code font attached here with
 
 [File Size](https://marketplace.visualstudio.com/items?itemName=mkxml.vscode-filesize)
 
-[DateTime](https://marketplace.visualstudio.com/items?itemName=znck.vue-language-features](https://marketplace.visualstudio.com/items?itemName=rid9.datetime)
+[DateTime](https://marketplace.visualstudio.com/items?itemName=rid9.datetime)
 
 
 ### Vue
@@ -114,6 +114,3 @@ NOTE: disable [Vetur](https://marketplace.visualstudio.com/items?itemName=octref
 
 ### PHP Extensions
 
-#### Install Jekyll
-
-[Install Instructions](https://jekyllrb.com/docs/installation/macos/)
