@@ -32,7 +32,7 @@ for CATALINA
 add the key \033OH for home and \033OF for End
 
 ## Install important software from apps-store
-1. copyClip  
+Chrome, VS Code, copyClip, Slack, MS Teams, ZOOM, MacDown, Figma, draw.io, WhatsApp, Synergy, Skype, FireFox
 
 ## SSH Keys
 ```bash
