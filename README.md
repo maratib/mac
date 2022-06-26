@@ -38,7 +38,7 @@ Chrome, VS Code, copyClip, Slack, MS Teams, ZOOM, MacDown, Figma, draw.io, Whats
 ```bash
 # Generate new key
 ssh-keygen -t rsa
-# Copy new key
+# Copy new key to 
 pbcopy < ~/.ssh/id_rsa.pub
 ```
 
