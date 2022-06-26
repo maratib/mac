@@ -34,6 +34,14 @@ add the key \033OH for home and \033OF for End
 ## Install important software from apps-store
 1. copyClip  
 
+## SSH Keys
+```bash
+# Generate new key
+ssh-keygen -t rsa
+# Copy new key
+pbcopy < ~/.ssh/id_rsa.pub
+```
+
 
 ## Install important software
 
