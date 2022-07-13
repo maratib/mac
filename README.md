@@ -72,6 +72,8 @@ Install the Fira Code font attached here with
 "editor.minimap.enabled": false,
 "editor.formatOnSave": true,
 
+"thunder-client.saveToWorkspace": true,
+
 ```
 
 ## VS Code important extensions
