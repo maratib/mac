@@ -62,6 +62,16 @@ Install the Fira Code font attached here with
 ```javascript
 "editor.fontFamily": "Fira Code",
 "editor.fontLigatures": true,
+
+"dateTime.showDayOfWeek": true,
+"dateTime.showMonth": true,
+"dateTime.showDayOfMonth": true,
+"dateTime.showAMPM": true,
+"dateTime.use24HourClock": false,
+
+"editor.minimap.enabled": false,
+"editor.formatOnSave": true,
+
 ```
 
 ## VS Code important extensions
