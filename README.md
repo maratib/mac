@@ -100,7 +100,9 @@ Install the Fira Code font attached here with
 
 [CSS Navigation](https://marketplace.visualstudio.com/items?itemName=pucelle.vscode-css-navigation)
 
-[Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+[Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)  
+
+[JSDoc Generator](https://marketplace.visualstudio.com/items?itemName=crystal-spider.jsdoc-generator)
 
 [Reload](https://marketplace.visualstudio.com/items?itemName=natqe.reload)
 
@@ -108,7 +110,9 @@ Install the Fira Code font attached here with
 
 [File Size](https://marketplace.visualstudio.com/items?itemName=mkxml.vscode-filesize)
 
-[DateTime](https://marketplace.visualstudio.com/items?itemName=rid9.datetime)
+[DateTime](https://marketplace.visualstudio.com/items?itemName=rid9.datetime)  
+
+[REST Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
 
 
 ### Vue
