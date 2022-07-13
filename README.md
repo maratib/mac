@@ -114,7 +114,9 @@ Install the Fira Code font attached here with
 
 [DateTime](https://marketplace.visualstudio.com/items?itemName=rid9.datetime)  
 
-[REST Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+[REST Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)  
+
+[Swagger Panel](https://marketplace.visualstudio.com/items?itemName=elsaooo.swagger-panel)
 
 
 ### Vue
