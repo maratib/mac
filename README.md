@@ -31,15 +31,17 @@ Esc Key : \033
 for CATALINA  
 add the key \033OH for home and \033OF for End
 
-## Install important software from apps-store
-Chrome, VS Code, copyClip, Slack, MS Teams, ZOOM, MacDown, Figma, draw.io, WhatsApp, Synergy, Skype, FireFox
-
 ## SSH Keys
-```bash
+
 # Generate new key
 ssh-keygen -t rsa
 # Copy new key to 
 pbcopy < ~/.ssh/id_rsa.pub
+
+git config --global user.name "Name"
+
+# To see remote url
+git remote -v
 ```
 
 ## Open with VS Code
@@ -66,13 +68,10 @@ Set “Pass input” to as `arguments`
 
 Save as Open in Visual Studio Code
 
-## Install important software
+## Install important software from apps-store
+Chrome, VS Code, copyClip, Slack, MS Teams, ZOOM, MacDown, Figma, draw.io, WhatsApp, Synergy, Skype, FireFox
 
-[Typora to view Markdown Files](https://typora.io/)
 
-[Open with VS Code](https://www.jimbobbennett.io/open-anything-in-vs-code-using-a-macos-quick-action/)
-
-<br>
 
 # VS Code setup
 
