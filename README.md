@@ -100,7 +100,7 @@ Install the Fira Code font attached here with
 
 ```
 
-## Remove node_module folder
+## Remove node_modules folder
 ```bash
 # Print node_modules folders 
 find . -name 'node_modules' -type d -prune 
