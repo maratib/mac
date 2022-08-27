@@ -94,8 +94,19 @@ Install the Fira Code font attached here with
 "editor.minimap.enabled": false,
 "editor.formatOnSave": true,
 
+"liveServer.settings.root": "src/"
+
 "thunder-client.saveToWorkspace": true,
 
+```
+
+## Remove node_module folder
+```bash
+# Print node_modules folders 
+find . -name 'node_modules' -type d -prune 
+
+# Delete node_modules folders
+find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +
 ```
 
 ## VS Code important extensions
