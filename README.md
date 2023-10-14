@@ -160,8 +160,10 @@ NOTE: disable [Vetur](https://marketplace.visualstudio.com/items?itemName=octref
 
 [VueDX](https://marketplace.visualstudio.com/items?itemName=znck.vue-language-features)
 
-### React, Next.js
-[ES7 React/Redux/GraphQL/React-Native snippets]([[https://marketplace.visualstudio.com/items?itemName=znck.vue-language-features](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next](https://marketplace.visualstudio.com/items?itemName=rodrigovallades.es7-react-js-snippets)))
+### React, Next.js  
+
+[ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=rodrigovallades.es7-react-js-snippets)  
+
 [Typescript Nightly]([https://marketplace.visualstudio.com/items?itemName=znck.vue-language-features](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next))
 
 ### TailwindCSS
