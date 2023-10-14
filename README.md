@@ -164,7 +164,7 @@ NOTE: disable [Vetur](https://marketplace.visualstudio.com/items?itemName=octref
 
 [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=rodrigovallades.es7-react-js-snippets)  
 
-[Typescript Nightly]([https://marketplace.visualstudio.com/items?itemName=znck.vue-language-features](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next))
+[Typescript Nightly](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next)
 
 ### TailwindCSS
 
