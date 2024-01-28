@@ -41,6 +41,7 @@ pbcopy < ~/.ssh/id_rsa.pub
 git config --global user.name "Name"
 
 # To see remote url
+```bash
 git remote -v
 ```
 
@@ -71,6 +72,16 @@ Save as Open in Visual Studio Code
 ## Install important software from apps-store
 Chrome, VS Code, copyClip, Slack, MS Teams, ZOOM, MacDown, Figma, draw.io, WhatsApp, Synergy, Skype, FireFox
 
+## Instal nvm locally
+```bash
+# Download install-script
+curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o install_nvm.sh
+
+# Run install-script
+zsh install_nvm.sh
+# or
+bash install_nvm.sh
+```
 
 
 # VS Code setup
