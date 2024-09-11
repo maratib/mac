@@ -34,18 +34,23 @@ add the key \033OH for home and \033OF for End
 ## SSH Keys
 
 # Generate new key
+
 ssh-keygen -t rsa
-# Copy new key to 
+
+# Copy new key to
+
 pbcopy < ~/.ssh/id_rsa.pub
 
 git config --global user.name "Name"
 
 # To see remote url
+
 ```bash
 git remote -v
 ```
 
 ## Open with VS Code
+
 Open Automator
 
 Create a new document
@@ -60,19 +65,23 @@ your default shell should already be selected, otherwise use /bin/zsh for macOS 
 older versions of macOS use /bin/bash
 if you're using something else, you probably know what to do 😉
 Set the script action to the following
+
 ```bash
 for f in "$@"; do
   open -a 'Visual Studio Code' "$@"
 done
 ```
+
 Set “Pass input” to as `arguments`
 
 Save as Open in Visual Studio Code
 
 ## Install important software from apps-store
-Chrome, VS Code, copyClip, Slack, MS Teams, ZOOM, MacDown, Figma, draw.io, WhatsApp, Synergy, Skype, FireFox
+
+Chrome, VS Code, copyClip, Slack, MS Teams, ZOOM, MacDown, Figma, draw.io, WhatsApp, Synergy, Skype, FireFox, Warp, The Unarchiver
 
 ## Instal nvm locally
+
 ```bash
 # Download install-script
 curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o install_nvm.sh
@@ -82,7 +91,6 @@ zsh install_nvm.sh
 # or
 bash install_nvm.sh
 ```
-
 
 # VS Code setup
 
@@ -112,9 +120,10 @@ Install the Fira Code font attached here with
 ```
 
 ## Remove node_modules folder
+
 ```bash
-# Print node_modules folders 
-find . -name 'node_modules' -type d -prune 
+# Print node_modules folders
+find . -name 'node_modules' -type d -prune
 
 # Delete node_modules folders
 find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +
@@ -146,7 +155,7 @@ find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +
 
 [CSS Navigation](https://marketplace.visualstudio.com/items?itemName=pucelle.vscode-css-navigation)
 
-[Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)  
+[Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
 [JSDoc Generator](https://marketplace.visualstudio.com/items?itemName=crystal-spider.jsdoc-generator)
 
@@ -156,12 +165,11 @@ find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +
 
 [File Size](https://marketplace.visualstudio.com/items?itemName=mkxml.vscode-filesize)
 
-[DateTime](https://marketplace.visualstudio.com/items?itemName=rid9.datetime)  
+[DateTime](https://marketplace.visualstudio.com/items?itemName=rid9.datetime)
 
-[REST Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)  
+[REST Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
 
 [Swagger Panel](https://marketplace.visualstudio.com/items?itemName=elsaooo.swagger-panel)
-
 
 ### Vue
 
@@ -171,9 +179,9 @@ NOTE: disable [Vetur](https://marketplace.visualstudio.com/items?itemName=octref
 
 [VueDX](https://marketplace.visualstudio.com/items?itemName=znck.vue-language-features)
 
-### React, Next.js  
+### React, Next.js
 
-[ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=rodrigovallades.es7-react-js-snippets)  
+[ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=rodrigovallades.es7-react-js-snippets)
 
 [Typescript Nightly](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next)
 
@@ -188,4 +196,3 @@ NOTE: disable [Vetur](https://marketplace.visualstudio.com/items?itemName=octref
 ### PHP Extensions
 
 ### PHP Extensions
-
