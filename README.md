@@ -39,9 +39,14 @@ ssh-keygen -t rsa
 
 # Copy new key to
 
+```bash
 pbcopy < ~/.ssh/id_rsa.pub
 
 git config --global user.name "Name"
+git config --global user.email "email"
+```
+
+Configure Github, Gitlab and Bitbucket SSH Keys
 
 # To see remote url
 
