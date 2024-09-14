@@ -76,9 +76,17 @@ Set “Pass input” to as `arguments`
 
 Save as Open in Visual Studio Code
 
+## Install NodeJS via NVM
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+nvm --version
+nvm install --lts
+```
+
 ## Install important software from apps-store
 
-Chrome, VS Code, copyClip, Slack, MS Teams, ZOOM, MacDown, Figma, draw.io, WhatsApp, Synergy, Skype, FireFox, Warp, The Unarchiver
+Chrome, VS Code, copyClip, Slack, MS Teams, ZOOM, MacDown, Figma, draw.io, WhatsApp, Synergy, Skype, FireFox, Warp, The Unarchiver, FileZilla, Miro, Insomnia,Redis Insight, Sequel Ace, Spotify, Sweet Home 3D, MongoDB Compass, XCode, Altair GraphQL Client, Android Studio, Audacity, balenaEtcher, Canva, DBeaver, Discord, DropBox, Docker, Kubernets, miniCube,
 
 ## Instal nvm locally
 
@@ -113,7 +121,7 @@ Install the Fira Code font attached here with
 "editor.minimap.enabled": false,
 "editor.formatOnSave": true,
 
-"liveServer.settings.root": "src/"
+"liveServer.settings.root": "src/",
 
 "thunder-client.saveToWorkspace": true,
 
@@ -191,8 +199,24 @@ NOTE: disable [Vetur](https://marketplace.visualstudio.com/items?itemName=octref
 
 [xPro](https://marketplace.visualstudio.com/items?itemName=maratib.xpro-snippets)
 
-### React Extensions
+[Codeium](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium)
 
-### PHP Extensions
+[ADB QR](https://marketplace.visualstudio.com/items?itemName=AakashP.adb-qr)
 
-### PHP Extensions
+[Code Generator for JAVA](https://marketplace.visualstudio.com/items?itemName=sohibe.java-generate-setters-getters)
+
+[Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+
+[Extension Pack for JAVA](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+
+[Goto definition alias](https://marketplace.visualstudio.com/items?itemName=antfu.goto-alias)
+
+[Karma Test Explorer](https://marketplace.visualstudio.com/items?itemName=lucono.karma-test-explorer)
+
+[Lombok Annotations](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-lombok)
+
+[Mocha Test Explorer](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-mocha-test-adapter)
+
+[Spring Boot Extension Pack](https://marketplace.visualstudio.com/items?itemName=vmware.vscode-boot-dev-pack)
+
+[Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode)
