@@ -220,3 +220,5 @@ NOTE: disable [Vetur](https://marketplace.visualstudio.com/items?itemName=octref
 [Spring Boot Extension Pack](https://marketplace.visualstudio.com/items?itemName=vmware.vscode-boot-dev-pack)
 
 [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode)
+
+[Postman](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode)
