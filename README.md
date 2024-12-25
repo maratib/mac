@@ -81,6 +81,31 @@ Set “Pass input” to as `arguments`
 
 Save as Open in Visual Studio Code
 
+## New file context menu in macOS
+
+- Open Automator
+- Select Application
+- Search Run AppleScript and drag it to workflow
+
+```
+on run {input, parameters}
+
+	(* Your script goes here *)
+
+	return input
+end run
+```
+
+Remove above with
+
+```
+tell application "Finder" to make new file at (the target of the front window) as alias
+```
+
+Save (you must select Application in both `File Format` and `Where`)
+
+Change icon by coping new icon and pasting it in Get info
+
 ## Install NodeJS via NVM
 
 ```bash
@@ -92,7 +117,6 @@ nvm install --lts
 ## Install important software from apps-store
 
 Chrome, VS Code, copyClip, Slack, MS Teams, ZOOM, MacDown, Figma, draw.io, WhatsApp, Synergy, Skype, FireFox, Warp, The Unarchiver, FileZilla, Miro, Insomnia,Redis Insight, Sequel Ace, Spotify, Sweet Home 3D, MongoDB Compass, XCode, Altair GraphQL Client, Android Studio, Audacity, balenaEtcher, Canva, DBeaver, Discord, DropBox, Docker, Kubernets, miniCube,
-
 
 # VS Code setup
 
