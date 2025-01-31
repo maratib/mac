@@ -143,6 +143,22 @@ Install the Fira Code font attached here with
 
 "thunder-client.saveToWorkspace": true,
 
+"editor.wordWrap": "on",
+  "jest.runMode": {
+    "type": "on-demand"
+  },
+  // "jest.outputConfig": {
+  //   "revealOn": "demand",
+  //   "revealWithFocus": "test-results"
+  //   // "clearOnRun": "terminal"
+  // },
+  // "testing.automaticallyOpenTestResults": "openOnTestFailure",
+  "testing.automaticallyOpenTestResults": "openOnTestStart",
+  //imports
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "explorer.autoReveal": false
+
 ```
 
 ## Remove node_modules folder
