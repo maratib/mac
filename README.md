@@ -169,6 +169,10 @@ find . -name 'node_modules' -type d -prune
 
 # Delete node_modules folders
 find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +
+
+# Delete specific files from folders and sub folders
+find . -name "*.vtt" -delete
+
 ```
 
 ## VS Code important extensions
