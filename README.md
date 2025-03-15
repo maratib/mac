@@ -139,6 +139,12 @@ Install the Fira Code font attached here with
 "editor.minimap.enabled": false,
 "editor.formatOnSave": true,
 
+"markdown-pdf.displayHeaderFooter": false,
+"markdown-pdf.margin.top": "0.5cm",
+"markdown-pdf.margin.bottom": "0.5cm",
+"markdown-pdf.margin.left": "0.5cm",
+"markdown-pdf.margin.right": "0.5cm",
+
 "liveServer.settings.root": "src/",
 
 "thunder-client.saveToWorkspace": true,
