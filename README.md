@@ -266,3 +266,29 @@ NOTE: disable [Vetur](https://marketplace.visualstudio.com/items?itemName=octref
 [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode)
 
 [Postman](https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode)
+
+## .zshrc setup
+
+```bash
+alias dev="pnpm dev"
+alias build="pnpm build"
+alias start="pnpm start"
+alias test="pnpm test"
+alias watch="pnpm watch"
+alias compile="npm run compile"
+alias conf="code ~/.zshrc"
+alias cls="clear"
+alias learn="cd ~/iwork/learn"
+
+# adding NVM to all user : install it using
+# brew install nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$(brew --prefix nvm)/nvm.sh" ] && \. "$(brew --prefix nvm)/nvm.sh" # This loads nvm
+[ -s "$(brew --prefix nvm)/bash_completion" ] && \. "$(brew --prefix nvm)/bash_completion" # This loads nvm bash_completion
+
+# adding sdkman to all user : install it using
+# brew tap sdkman/tap
+# brew install sdkman-cli
+set -gx SDKMAN_DIR (brew --prefix sdkman-cli)/libexec
+source "$SDKMAN_DIR/bin/sdkman-init.sh"
+```
