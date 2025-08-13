@@ -185,8 +185,6 @@ find . -name "*.vtt" -delete
 
 ### General extensions must install
 
-[Material Theme](https://marketplace.visualstudio.com/items?itemName=t3dotgg.vsc-material-theme-but-i-wont-sue-you)
-
 [Atom Material Theme](https://marketplace.visualstudio.com/items?itemName=tobiasalthoff.atom-material-theme)
 
 [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
@@ -218,6 +216,8 @@ find . -name "*.vtt" -delete
 [Jest Snippets](https://marketplace.visualstudio.com/items?itemName=andys8.jest-snippets)
 
 [xPro](https://marketplace.visualstudio.com/items?itemName=maratib.xpro-snippets)
+
+Optional prefer Atom Theme as above: [Material Theme](https://marketplace.visualstudio.com/items?itemName=t3dotgg.vsc-material-theme-but-i-wont-sue-you)
 
 ### Frontend extensions must install
 
