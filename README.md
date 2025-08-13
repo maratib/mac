@@ -183,33 +183,21 @@ find . -name "*.vtt" -delete
 
 ## VS Code important extensions
 
-### General extensions
+### General extensions must install
 
-[Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
+[Material Theme](https://marketplace.visualstudio.com/items?itemName=t3dotgg.vsc-material-theme-but-i-wont-sue-you)
 
 [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-
-[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-
-[Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
-
-[Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 
 [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)
 
 [.env support](https://marketplace.visualstudio.com/items?itemName=IronGeek.vscode-env)
 
+[XML Format](https://marketplace.visualstudio.com/items?itemName=mikeburgh.xml-format)
+
 [Advance-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)
 
-[SCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)
-
-[IntelliSense for CSS](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
-
-[CSS Navigation](https://marketplace.visualstudio.com/items?itemName=pucelle.vscode-css-navigation)
-
 [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-
-[JSDoc Generator](https://marketplace.visualstudio.com/items?itemName=crystal-spider.jsdoc-generator)
 
 [Reload](https://marketplace.visualstudio.com/items?itemName=natqe.reload)
 
@@ -220,6 +208,28 @@ find . -name "*.vtt" -delete
 [DateTime](https://marketplace.visualstudio.com/items?itemName=rid9.datetime)
 
 [REST Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+
+[Mocha Test Explorer](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-mocha-test-adapter)
+
+[Karma Test Explorer](https://marketplace.visualstudio.com/items?itemName=lucono.karma-test-explorer)
+
+[xPro](https://marketplace.visualstudio.com/items?itemName=maratib.xpro-snippets)
+
+### Frontend extensions must install
+
+[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+[Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
+
+[Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+
+[SCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)
+
+[IntelliSense for CSS](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
+
+[CSS Navigation](https://marketplace.visualstudio.com/items?itemName=pucelle.vscode-css-navigation)
+
+[JSDoc Generator](https://marketplace.visualstudio.com/items?itemName=crystal-spider.jsdoc-generator)
 
 [Swagger Panel](https://marketplace.visualstudio.com/items?itemName=elsaooo.swagger-panel)
 
@@ -239,10 +249,6 @@ NOTE: disable [Vetur](https://marketplace.visualstudio.com/items?itemName=octref
 
 ### TailwindCSS
 
-[Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
-
-[xPro](https://marketplace.visualstudio.com/items?itemName=maratib.xpro-snippets)
-
 [Codeium](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium)
 
 [ADB QR](https://marketplace.visualstudio.com/items?itemName=AakashP.adb-qr)
@@ -255,11 +261,7 @@ NOTE: disable [Vetur](https://marketplace.visualstudio.com/items?itemName=octref
 
 [Goto definition alias](https://marketplace.visualstudio.com/items?itemName=antfu.goto-alias)
 
-[Karma Test Explorer](https://marketplace.visualstudio.com/items?itemName=lucono.karma-test-explorer)
-
 [Lombok Annotations](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-lombok)
-
-[Mocha Test Explorer](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-mocha-test-adapter)
 
 [Spring Boot Extension Pack](https://marketplace.visualstudio.com/items?itemName=vmware.vscode-boot-dev-pack)
 
