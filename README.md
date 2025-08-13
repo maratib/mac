@@ -213,6 +213,8 @@ find . -name "*.vtt" -delete
 
 [Karma Test Explorer](https://marketplace.visualstudio.com/items?itemName=lucono.karma-test-explorer)
 
+[Jest Snippets](https://marketplace.visualstudio.com/items?itemName=andys8.jest-snippets)
+
 [xPro](https://marketplace.visualstudio.com/items?itemName=maratib.xpro-snippets)
 
 ### Frontend extensions must install
@@ -247,7 +249,7 @@ NOTE: disable [Vetur](https://marketplace.visualstudio.com/items?itemName=octref
 
 [Typescript Nightly](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next)
 
-### TailwindCSS
+### AI Assistants Extensions
 
 [Codeium](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium)
 
