@@ -288,6 +288,7 @@ alias learn="cd ~/iwork/learn"
 
 # adding NVM to all user : install it using
 # brew install nvm
+# nvm install --lts
 export NVM_DIR="$HOME/.nvm"
 [ -s "$(brew --prefix nvm)/nvm.sh" ] && \. "$(brew --prefix nvm)/nvm.sh" # This loads nvm
 [ -s "$(brew --prefix nvm)/bash_completion" ] && \. "$(brew --prefix nvm)/bash_completion" # This loads nvm bash_completion
@@ -295,6 +296,7 @@ export NVM_DIR="$HOME/.nvm"
 # adding sdkman to all user : install it using
 # brew tap sdkman/tap
 # brew install sdkman-cli
-set -gx SDKMAN_DIR (brew --prefix sdkman-cli)/libexec
-source "$SDKMAN_DIR/bin/sdkman-init.sh"
+# sdk install java 21.0.8-tem
+export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
+[[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
 ```
