@@ -199,6 +199,12 @@ find . -name "*.vtt" -delete
 
 [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
+[Better Comment](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+
+[Remover Comments](https://marketplace.visualstudio.com/items?itemName=plibither8.remove-comments)
+
+[Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+
 [Reload](https://marketplace.visualstudio.com/items?itemName=natqe.reload)
 
 [File Utils](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils)
@@ -236,6 +242,16 @@ Optional prefer Atom Theme as above: [Material Theme](https://marketplace.visual
 [JSDoc Generator](https://marketplace.visualstudio.com/items?itemName=crystal-spider.jsdoc-generator)
 
 [Swagger Panel](https://marketplace.visualstudio.com/items?itemName=elsaooo.swagger-panel)
+
+### Flutter
+
+[Flutter](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter)
+
+[Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code)
+
+[Flutter Widget Snippets](https://marketplace.visualstudio.com/items?itemName=alexisvt.flutter-snippets)
+
+[Flutter Riverpod Snippets](https://marketplace.visualstudio.com/items?itemName=robert-brunhage.flutter-riverpod-snippets)
 
 ### Vue
 
@@ -298,5 +314,6 @@ export NVM_DIR="$HOME/.nvm"
 # brew install sdkman-cli
 # sdk install java 21.0.8-tem
 export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
-[[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
+# [[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
+export JAVA_HOME=${SDKMAN_DIR}/candidates/java/current
 ```
