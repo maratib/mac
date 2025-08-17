@@ -221,6 +221,8 @@ find . -name "*.vtt" -delete
 
 [Jest Snippets](https://marketplace.visualstudio.com/items?itemName=andys8.jest-snippets)
 
+[ADB QR](https://marketplace.visualstudio.com/items?itemName=AakashP.adb-qr)
+
 [xPro](https://marketplace.visualstudio.com/items?itemName=maratib.xpro-snippets)
 
 Optional prefer Atom Theme as above: [Material Theme](https://marketplace.visualstudio.com/items?itemName=t3dotgg.vsc-material-theme-but-i-wont-sue-you)
@@ -252,6 +254,10 @@ Optional prefer Atom Theme as above: [Material Theme](https://marketplace.visual
 [Flutter Widget Snippets](https://marketplace.visualstudio.com/items?itemName=alexisvt.flutter-snippets)
 
 [Flutter Riverpod Snippets](https://marketplace.visualstudio.com/items?itemName=robert-brunhage.flutter-riverpod-snippets)
+
+[Gradle](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-gradle)
+
+[Kotlin](https://marketplace.visualstudio.com/items?itemName=mathiasfrohlich.Kotlin)
 
 ### Vue
 
