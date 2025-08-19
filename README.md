@@ -259,6 +259,10 @@ Optional prefer Atom Theme as above: [Material Theme](https://marketplace.visual
 
 [Kotlin](https://marketplace.visualstudio.com/items?itemName=mathiasfrohlich.Kotlin)
 
+[Firebase](https://marketplace.visualstudio.com/items?itemName=toba.vsfire)
+
+[Supabase](https://marketplace.visualstudio.com/items?itemName=Supabase.vscode-supabase-extension)
+
 ### Vue
 
 [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
