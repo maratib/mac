@@ -257,8 +257,6 @@ Optional prefer Atom Theme as above: [Material Theme](https://marketplace.visual
 
 [Flutter](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter)
 
-[Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code)
-
 [Flutter Widget Snippets](https://marketplace.visualstudio.com/items?itemName=alexisvt.flutter-snippets)
 
 [Flutter Riverpod Snippets](https://marketplace.visualstudio.com/items?itemName=robert-brunhage.flutter-riverpod-snippets)
