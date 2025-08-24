@@ -223,7 +223,15 @@ find . -name "*.vtt" -delete
 
 [ADB QR](https://marketplace.visualstudio.com/items?itemName=AakashP.adb-qr)
 
-[xPro](https://marketplace.visualstudio.com/items?itemName=maratib.xpro-snippets)
+[xPro-snippets](https://marketplace.visualstudio.com/items?itemName=maratib.xpro-snippets)
+
+[Firebase](https://marketplace.visualstudio.com/items?itemName=toba.vsfire)
+
+[Supabase](https://marketplace.visualstudio.com/items?itemName=Supabase.vscode-supabase-extension)
+
+[Gradle](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-gradle)
+
+[Kotlin](https://marketplace.visualstudio.com/items?itemName=mathiasfrohlich.Kotlin)
 
 Optional prefer Atom Theme as above: [Material Theme](https://marketplace.visualstudio.com/items?itemName=t3dotgg.vsc-material-theme-but-i-wont-sue-you)
 
@@ -255,13 +263,11 @@ Optional prefer Atom Theme as above: [Material Theme](https://marketplace.visual
 
 [Flutter Riverpod Snippets](https://marketplace.visualstudio.com/items?itemName=robert-brunhage.flutter-riverpod-snippets)
 
-[Gradle](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-gradle)
+### React Native
 
-[Kotlin](https://marketplace.visualstudio.com/items?itemName=mathiasfrohlich.Kotlin)
+[React Native Tools (Preview)](https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native-preview)
 
-[Firebase](https://marketplace.visualstudio.com/items?itemName=toba.vsfire)
-
-[Supabase](https://marketplace.visualstudio.com/items?itemName=Supabase.vscode-supabase-extension)
+[Expo Tools](https://marketplace.visualstudio.com/items?itemName=expo.vscode-expo-tools)
 
 ### Vue
 
@@ -311,6 +317,23 @@ alias compile="npm run compile"
 alias conf="code ~/.zshrc"
 alias cls="clear"
 alias learn="cd ~/iwork/learn"
+
+# React-Native aliases
+alias and="pnpm run android"
+alias ios="pnpm run ios"
+alias xdoc="npx expo-doctor"
+alias xpre="npx expo prebuild"
+alias xmap="npx expo-router-sitemap"
+
+# Flutter aliases
+alias fl="flutter "
+alias fub="flutter pub "
+
+
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # adding NVM to all user : install it using
 # brew install nvm
