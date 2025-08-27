@@ -31,6 +31,18 @@ Esc Key : \033
 for CATALINA  
 add the key \033OH for home and \033OF for End
 
+## Install Brew
+```bash
+# Install HomeBrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install Important brew packages
+brew install git
+brew install wget
+brew install cocoapods
+
+```
+
 ## SSH Keys
 
 # Generate new key
@@ -106,17 +118,6 @@ Save (you must select Application in both `File Format` and `Where`)
 
 Change icon by coping new icon and pasting it in Get info
 
-## Install Brew
-```bash
-# Install HomeBrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-# Install Important brew packages
-brew install git
-brew install wget
-brew install cocoapods
-
-```
 
 ## Install NodeJS via NVM
 
