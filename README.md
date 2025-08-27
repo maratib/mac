@@ -106,6 +106,18 @@ Save (you must select Application in both `File Format` and `Where`)
 
 Change icon by coping new icon and pasting it in Get info
 
+## Install Brew
+```bash
+# Install HomeBrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install Important brew packages
+brew install git
+brew install wget
+brew install cocoapods
+
+```
+
 ## Install NodeJS via NVM
 
 ```bash
@@ -306,6 +318,10 @@ NOTE: disable [Vetur](https://marketplace.visualstudio.com/items?itemName=octref
 ## .zshrc setup
 
 ```bash
+code ~/.zshrc
+```
+
+```bash
 alias dev="pnpm dev"
 alias build="pnpm build"
 alias start="pnpm start"
@@ -347,4 +363,10 @@ export NVM_DIR="$HOME/.nvm"
 export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
 # [[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
 export JAVA_HOME=${SDKMAN_DIR}/candidates/java/current
+```
+### Adding iOS Platform
+
+```bash
+# XCode version : 15.2 for Ventura 
+xcrun simctl runtime add iOS_17.2_Simulator_Runtime.dmg 
 ```
