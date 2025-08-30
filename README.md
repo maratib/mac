@@ -232,6 +232,8 @@ find . -name "*.vtt" -delete
 
 [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
 
+[MDX](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx)
+
 [ADB QR](https://marketplace.visualstudio.com/items?itemName=AakashP.adb-qr)
 
 [xPro-snippets](https://marketplace.visualstudio.com/items?itemName=maratib.xpro-snippets)
