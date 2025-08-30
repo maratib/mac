@@ -32,6 +32,7 @@ for CATALINA
 add the key \033OH for home and \033OF for End
 
 ## Install Brew
+
 ```bash
 # Install HomeBrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -117,7 +118,6 @@ tell application "Finder" to make new file at (the target of the front window) a
 Save (you must select Application in both `File Format` and `Where`)
 
 Change icon by coping new icon and pasting it in Get info
-
 
 ## Install NodeJS via NVM
 
@@ -226,13 +226,11 @@ find . -name "*.vtt" -delete
 
 [DateTime](https://marketplace.visualstudio.com/items?itemName=rid9.datetime)
 
-[REST Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+[Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
 
-[Mocha Test Explorer](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-mocha-test-adapter)
+[Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
 
-[Karma Test Explorer](https://marketplace.visualstudio.com/items?itemName=lucono.karma-test-explorer)
-
-[Jest Snippets](https://marketplace.visualstudio.com/items?itemName=andys8.jest-snippets)
+[vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
 
 [ADB QR](https://marketplace.visualstudio.com/items?itemName=AakashP.adb-qr)
 
@@ -365,9 +363,10 @@ export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
 # [[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
 export JAVA_HOME=${SDKMAN_DIR}/candidates/java/current
 ```
+
 ### Adding iOS Platform
 
 ```bash
-# XCode version : 15.2 for Ventura 
-xcrun simctl runtime add iOS_17.2_Simulator_Runtime.dmg 
+# XCode version : 15.2 for Ventura
+xcrun simctl runtime add iOS_17.2_Simulator_Runtime.dmg
 ```
