@@ -226,7 +226,7 @@ find . -name "*.vtt" -delete
 
 [DateTime](https://marketplace.visualstudio.com/items?itemName=rid9.datetime)
 
-[Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
+[Mermaid](https://marketplace.visualstudio.com/items?itemName=MermaidChart.vscode-mermaid-chart)
 
 [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
 
