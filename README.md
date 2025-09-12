@@ -350,6 +350,9 @@ export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
+# Add Flutter SDK
+export PATH=$PATH:$HOME/sdks/flutter/bin
+
 # adding NVM to all user : install it using
 # brew install nvm
 # nvm install --lts
@@ -366,9 +369,16 @@ export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
 export JAVA_HOME=${SDKMAN_DIR}/candidates/java/current
 ```
 
-### Adding iOS Platform
+### Mac OS related
 
 ```bash
 # XCode version : 15.2 for Ventura
 xcrun simctl runtime add iOS_17.2_Simulator_Runtime.dmg
+
+# or Ventura and high
+
+xcodebuild -importPlatform iOS_18.2_Simulator_Runtime.dmg
+
+# Enable from any developer
+sudo spctl --master-disable
 ```
