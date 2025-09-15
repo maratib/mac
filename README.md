@@ -381,4 +381,18 @@ xcodebuild -importPlatform iOS_18.2_Simulator_Runtime.dmg
 
 # Enable from any developer
 sudo spctl --master-disable
+
+#
+
 ```
+
+### Prevent a mac turning on
+
+- To prevent startup when opening the lid or connecting to power:
+  - `sudo nvram BootPreference=%00`
+- To prevent startup only when opening the lid:
+
+  - `sudo nvram BootPreference=%01`
+
+- To prevent startup only when connecting to power:
+  - `sudo nvram BootPreference=%02`
