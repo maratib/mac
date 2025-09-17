@@ -331,7 +331,8 @@ alias watch="pnpm watch"
 alias compile="npm run compile"
 alias conf="code ~/.zshrc"
 alias cls="clear"
-alias learn="cd ~/iwork/learn"
+alias iwork="cd /Volumes/MHDD/iwork"
+alias learn="cd /Volumes/MHDD/iwork/learn"
 
 # React-Native aliases
 alias and="pnpm run android"
@@ -343,6 +344,20 @@ alias xmap="npx expo-router-sitemap"
 # Flutter aliases
 alias fl="flutter "
 alias fub="flutter pub "
+alias fbg="flutter pub get"
+alias frun="flutter run"
+alias fbuild="flutter build"
+alias fclean="flutter clean"
+alias fdoc="flutter doctor"
+alias ftest="flutter test"
+alias fgen="flutter pub run build_runner build --delete-conflicting-outputs"
+
+
+
+# adding sdkman to all user : install it using
+# brew tap sdkman/tap
+# brew install sdkman-cli
+# sdk install java 21.0.8-tem
 
 
 export ANDROID_HOME=$HOME/Library/Android/sdk
@@ -356,17 +371,27 @@ export PATH=$PATH:$HOME/sdks/flutter/bin
 # adding NVM to all user : install it using
 # brew install nvm
 # nvm install --lts
-export NVM_DIR="$HOME/.nvm"
-[ -s "$(brew --prefix nvm)/nvm.sh" ] && \. "$(brew --prefix nvm)/nvm.sh" # This loads nvm
-[ -s "$(brew --prefix nvm)/bash_completion" ] && \. "$(brew --prefix nvm)/bash_completion" # This loads nvm bash_completion
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$(brew --prefix nvm)/nvm.sh" ] && \. "$(brew --prefix nvm)/nvm.sh" # This loads nvm
+# [ -s "$(brew --prefix nvm)/bash_completion" ] && \. "$(brew --prefix nvm)/bash_completion" # This loads nvm bash_completion
 
-# adding sdkman to all user : install it using
-# brew tap sdkman/tap
-# brew install sdkman-cli
-# sdk install java 21.0.8-tem
-export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
-# [[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
-export JAVA_HOME=${SDKMAN_DIR}/candidates/java/current
+
+function load-nvm {
+  export NVM_DIR="$HOME/.nvm"
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+    [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
+    export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
+    [[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
+    export JAVA_HOME=${SDKMAN_DIR}/candidates/java/current
+}
+
+# nvm
+if [[ "x${TERM_PROGRAM}" = "vscode" ]]; then
+  echo 'in vscode, nvm not work; use `load-nvm`';
+else
+  load-nvm
+fi
 ```
 
 ### Mac OS related
