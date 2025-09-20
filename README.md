@@ -421,3 +421,11 @@ sudo spctl --master-disable
 
 - To prevent startup only when connecting to power:
   - `sudo nvram BootPreference=%02`
+
+### Prevent enrolled mac
+
+```bash
+0.0.0.0 iprofiles.apple.com
+0.0.0.0 mdmenrollment.apple.com
+0.0.0.0 deviceenrollment.apple.com
+```
