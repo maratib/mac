@@ -381,6 +381,9 @@ function load-nvm {
     [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
     [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
     [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
+      # brew tap SDKMAN/tap
+      # brew install SDKMAN-cli
+      # sdk install java 21.0.8-tem
     export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
     [[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
     export JAVA_HOME=${SDKMAN_DIR}/candidates/java/current
